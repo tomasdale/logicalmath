@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import RomanConversor from './RomanConversor'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RomanConversor />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('home')
 );
 
 // If you want your app to work offline and load faster, you can change
